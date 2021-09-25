@@ -1,15 +1,15 @@
 # Table of contents
 
-* [MARI 开源度量指标体系和效能提升指南](README.md)
+* [开源指标体系和效能提升指南](README.md)
 
-## 了解 MARI 指南
+## 了解 MARI <a id="about"></a>
 
-* [背景](le-jie-mari-zhi-nan/framework.md)
-* [最佳实践](le-jie-mari-zhi-nan/bestpractice.md)
+* [背景](about/framework.md)
+* [最佳实践](about/bestpractice.md)
 
 ## 度量指标体系
 
-## 使用MARI指南
+## 使用 MARI <a id="shi-yong-mari-zhi-nan"></a>
 
 * [当前涵盖指标概览](shi-yong-mari-zhi-nan/summary.md)
 * [指标MARI指南](shi-yong-mari-zhi-nan/metrics.md)
