@@ -1,6 +1,6 @@
 # Table of contents
 
-* [MARI指南简介](README.md)
+* [MARI开源度量指标体系和效能提升指南](README.md)
 
 ## 了解 MARI 指南
 
