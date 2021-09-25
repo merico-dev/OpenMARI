@@ -12,5 +12,5 @@
 ## 使用 MARI <a id="shi-yong-mari-zhi-nan"></a>
 
 * [当前涵盖指标概览](shi-yong-mari-zhi-nan/summary.md)
-* [指标MARI指南](shi-yong-mari-zhi-nan/metrics.md)
+* [指标 MARI 指南](shi-yong-mari-zhi-nan/metrics.md)
 
