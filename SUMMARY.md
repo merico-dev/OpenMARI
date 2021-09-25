@@ -14,5 +14,3 @@
 
 ## 度量指标体系
 
-* [Untitled](du-liang-zhi-biao-ti-xi/untitled.md)
-
