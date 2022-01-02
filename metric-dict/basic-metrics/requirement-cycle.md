@@ -15,11 +15,11 @@
 * 统计项目维度需求交付周期。
 * 统计周期内平均或 80% 的需求的交付周期。
 
-![](../.gitbook/assets/xu-qiu-jiao-fu-zhou-qi-1.png)
+![](/.gitbook/assets/xu-qiu-jiao-fu-zhou-qi-1.png)
 
 * 统计需求在不同实践域（需求分析、设计、开发、测试、发布）或不同状态的停留时长。
 
-![](../.gitbook/assets/xu-qiu-jiao-fu-zhou-qi-2.png)
+![](/.gitbook/assets/xu-qiu-jiao-fu-zhou-qi-2.png)
 
 
 
