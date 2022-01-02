@@ -14,3 +14,5 @@
 ## 指标字典 <a href="#metric-dict" id="metric-dict"></a>
 
 * [指标索引](metric-dict/metric-index.md)
+* [基础指标集](metric-dict/basic-metrics/README.md)
+  * [需求交付周期](metric-dict/basic-metrics/requirement-cycle.md)
