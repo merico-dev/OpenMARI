@@ -10,8 +10,8 @@
 [requirement-cycle.md](basic-metrics/requirement-cycle.md)
 {% endcontent-ref %}
 
-{% content-ref url="basic-metrics/xu-qiu-tun-tu-shuai.md" %}
-[xu-qiu-tun-tu-shuai.md](basic-metrics/xu-qiu-tun-tu-shuai.md)
+{% content-ref url="basic-metrics/requirement-throughput.md" %}
+[requirement-throughput.md](basic-metrics/requirement-throughput.md)
 {% endcontent-ref %}
 
 ### 交付质量
