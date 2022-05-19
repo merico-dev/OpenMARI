@@ -65,9 +65,9 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'summary',
+            docId: 'intro',
             position: 'left',
-            label: 'Summary',
+            label: 'Documentation',
           },
           {
             href: 'https://github.com/merico-dev/OpenMARI',
@@ -83,8 +83,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Summary',
-                to: '/docs/summary',
+                label: 'Introduction',
+                to: '/docs/intro',
               },
             ],
           },

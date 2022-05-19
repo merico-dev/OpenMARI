@@ -1,3 +1,8 @@
+---
+sidebar_label: 'Best Practices'
+sidebar_position: 2
+---
+
 # 最佳实践
 
 * **由少到多，持续下钻**
@@ -16,7 +21,7 @@ MARI 框架强调对指标数据进行下钻分析，首先对数据进行多视
 
 层层推进的框架设计，使度量带动思考和行动，才能发挥出度量真正的价值。
 
-![](../.gitbook/assets/zui-jia-shi-jian-.svg)
+![](img/zui-jia-shi-jian-.svg)
 
 * **构建闭环，持续改进**
 

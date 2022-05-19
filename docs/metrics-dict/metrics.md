@@ -15,11 +15,11 @@
 * 统计项目维度需求交付周期。
 * 统计周期内平均或 80% 的需求的交付周期。
 
-![](.gitbook/assets/xu-qiu-jiao-fu-zhou-qi-1.png)
+![](img/xu-qiu-jiao-fu-zhou-qi-1.png)
 
 * 统计需求在不同实践域（需求分析、设计、开发、测试、发布）或不同状态的停留时长。
 
-![](.gitbook/assets/xu-qiu-jiao-fu-zhou-qi-2.png)
+![](img/xu-qiu-jiao-fu-zhou-qi-2.png)
 
 
 
@@ -80,16 +80,16 @@
 
 * 统计项目维度需求个数，用来衡量需求规模。
 
-![](.gitbook/assets/xu-qiu-tun-tu-liang-1.png)
+![](img/xu-qiu-tun-tu-liang-1.png)
 
 * 统计周期内需求个数，观察需求变化趋势。
 
-![](.gitbook/assets/xu-qiu-tun-tu-liang-2.png)
+![](img/xu-qiu-tun-tu-liang-2.png)
 
 * 统计不同阶段（分析、设计、开发、测试、发布、运营）需求个数，计算不同阶段需求占比。
 * 计算周期内交付（完成）的需求个数。
 
-![](.gitbook/assets/xu-qiu-tun-tu-liang-3.png)
+![](img/xu-qiu-tun-tu-liang-3.png)
 
 ### 分析（Analyze）
 
@@ -173,12 +173,12 @@
 
 * 统计每个需求的故事点数（均值、中位数及80%分位）。
 
-![](.gitbook/assets/xu-qiu-ke-li-du-1.png)
+![](img/xu-qiu-ke-li-du-1.png)
 
 * 统计每个需求的交付时长（均值或中位数或80%分位），从研发到发布的时间（或者用户可配置）。
 * 统计项目维度周期内的故事点数、代码行数或代码当量。计算每故事点的代码行数或代码当量，等于代码行数或代码当量除以故事点数。
 
-![](.gitbook/assets/xu-qiu-ke-li-du-2.png)
+![](img/xu-qiu-ke-li-du-2.png)
 
 * 统计每人每天的代码行数或代码当量。
 
@@ -272,7 +272,7 @@
 
     当离散系数大于0.5时，需分析数据过于分散的原因。
 
-![](.gitbook/assets/dai-ma-dang-liang-3.png)
+![](img/dai-ma-dang-liang-3.png)
 
 * 异常值检验
 
@@ -290,19 +290,19 @@
   * 倾向性（连续不少于6个数据点有上升或下降的倾向）与周期性
   * 连续14个数据点中相邻交替上下
 
-![](.gitbook/assets/dai-ma-dang-liang-4.png)
+![](img/dai-ma-dang-liang-4.png)
 
 * 分析控制图
 
   通过拟合线趋势，对统计周期内，相应步长（周/月）的生产率水平的上升/下降趋势变化进行判断。
 
-![](.gitbook/assets/dai-ma-dang-liang-5.png)
+![](img/dai-ma-dang-liang-5.png)
 
 通过生产率波动规律，可观察生产率是否存在连续上升、下降或数据分层等现象。连续上升、下降提示受产品排期、任务拆分及人力调配合理性的影响，引发的忙闲不均现象。
 
 当数据出现向上或向下分层，通常与业务需求的紧凑性、人力资源的变化等因素相关，需进一步分析。
 
-![](.gitbook/assets/dai-ma-dang-liang-6.png)
+![](img/dai-ma-dang-liang-6.png)
 
 * 生产率横向分析
 
@@ -310,15 +310,15 @@
 
   通过箱线图或柱状图，进行项目/团队间人均当量的横向分析，基于中位数或均值对生产率偏低或偏高值的合理性进行分析。
 
-![](.gitbook/assets/dai-ma-dang-liang-7.jpg)
+![](img/dai-ma-dang-liang-7.jpg)
 
 同时，通过效率（人均生产率）与稳定性（离散系数）双变量散点图，分析各项目/团队在不同象限的分布，分析项目/团队在效率稳定性上的表现。
 
-![](.gitbook/assets/dai-ma-dang-liang-8.png)
+![](img/dai-ma-dang-liang-8.png)
 
 使用历史基线或行业指标，对过程性能进行对标分析，以了解现状与历史生产力、行业指标之间的比较情况。
 
-![](.gitbook/assets/dai-ma-dang-liang-9.png)
+![](img/dai-ma-dang-liang-9.png)
 
 ### 回顾（Review）
 
@@ -326,7 +326,7 @@
 
 以下为可参考的回顾思路：
 
-![](.gitbook/assets/dai-ma-dang-liang-10.png)
+![](img/dai-ma-dang-liang-10.png)
 
 ### 改进（Improve）
 
@@ -454,7 +454,7 @@
 * 统计项目维度构建总次数、构建成功次数、构建失败次数。
 * 统计周期内构建总次数、构建成功次数、构建失败次数。
 
-![](.gitbook/assets/gou-jian-ci-shu-1.png)
+![](img/gou-jian-ci-shu-1.png)
 
 * 分别统计开发、测试、发布阶段构建总次数、构建成功次数、构建失败次数。
 
@@ -505,7 +505,7 @@
 
 测试权限数可以从项目或团队维度统计，统计维度包括：缺陷总数、缺陷严重等级、缺陷分类、缺陷修复周期、缺陷所属责任人、缺陷累计趋势。
 
-![](.gitbook/assets/ce-shi-que-xian-shu-1.jpg)
+![](img/ce-shi-que-xian-shu-1.jpg)
 
 ### 分析（Analyze）
 
@@ -581,7 +581,7 @@
 
 ### 度量（Measure）
 
-![](.gitbook/assets/ce-shi-que-xian-shuai-1.png)
+![](img/ce-shi-que-xian-shuai-1.png)
 
 测试缺陷率是很有价值的指标，能够用于度量代码质量、分析测试充分性、预测交付软件质量。但在实际使用中，应尽量避免将其作为考核指标，尤其是常见的千行代码缺陷率指标。 其潜在的负向牵引作用，容易引导团队成员做出一些对无益于长远、整体效能的行为，例如：
 
@@ -668,7 +668,7 @@
 * 按项目统计上线后缺陷数量、缺陷累计新增数量。
 * 进一步统计：缺陷的严重等级、缺陷类型（业务、功能分类）或所属模块、缺陷来源。
 
-![](.gitbook/assets/xian-shang-que-xian-shu-.jpg)
+![](img/xian-shang-que-xian-shu-.jpg)
 
 ### 分析（Analyze）
 
@@ -722,7 +722,7 @@
 * 按项目统计千行代码或千代码当量 缺陷率。
 * 按时间统计千行代码或千代码当量缺陷率的变化趋势。
 
-![](.gitbook/assets/xian-shang-que-xian-shuai-.png)
+![](img/xian-shang-que-xian-shuai-.png)
 
 * 基于历史数据，建立千行代码或千代码当量缺陷率的参考基线。
 
