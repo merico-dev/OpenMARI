@@ -23,8 +23,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh',
+    locales: ['zh', 'en'],
   },
 
   presets: [
@@ -38,6 +38,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/merico-dev/OpenMARI/tree/main/',
+          editLocalizedFiles: true,
         },
         blog: {
           showReadingTime: true,
@@ -45,6 +46,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/merico-dev/OpenMARI/tree/main/',
+          editLocalizedFiles: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -72,6 +74,10 @@ const config = {
           {
             href: 'https://github.com/merico-dev/OpenMARI',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            type: 'localeDropdown',
             position: 'right',
           },
         ],

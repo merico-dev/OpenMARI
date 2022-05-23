@@ -1,0 +1,38 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Introduction": {
+    "message": "Introduction",
+    "description": "The label of footer link with label=Introduction linking to /docs/intro"
+  },
+  "link.item.label.Slack": {
+    "message": "Slack",
+    "description": "The label of footer link with label=Slack linking to https://join.slack.com/t/openmari/shared_invite/zt-18sdm37mq-WBYUhXWAGST6rZ~9jqj_Lg"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/mericodev"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/merico-dev/OpenMARI"
+  },
+  "link.item.label.DevData Review": {
+    "message": "DevData Review",
+    "description": "The label of footer link with label=DevData Review linking to /review"
+  },
+  "copyright": {
+    "message": "Copyright © 2022 Merico, Inc. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}
