@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '规范化指标定义',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        遵循《软件研发效能度量规范》标准，<br/>避免概念歧义，统一数据治理。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '目标明确的系统化度量',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        从效能改进的目标出发，<br/>选取视图和指标，进行系统化度量。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '合理有效的改进措施',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        向团队询问正确的问题，定位关联指标，<br/>辅助根因分析，快速迭代改进。
       </>
     ),
   },

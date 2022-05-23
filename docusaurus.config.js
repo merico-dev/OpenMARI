@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'OpenMARI',
-  tagline: 'Open-source engineering productivity metrics and guide',
+  title: 'OpenMARI 开源指标体系和效能提升指南',
+  tagline: '实践数据驱动研发效能的先进方法论',
   url: 'https://www.openmari.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -59,9 +59,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'OpenMARI',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Website Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -69,7 +69,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Documentation',
+            label: '文档',
           },
           {
             href: 'https://github.com/merico-dev/OpenMARI',
@@ -86,16 +86,16 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '文档',
             items: [
               {
-                label: 'Introduction',
+                label: '简介',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '社区',
             items: [
               {
                 label: 'Slack',
@@ -108,14 +108,14 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
               {
                 label: 'GitHub',
                 href: 'https://github.com/merico-dev/OpenMARI',
               },
               {
-                label: 'DevData Review',
+                label: '研发效能评论',
                 to: '/review',
               },
             ],
