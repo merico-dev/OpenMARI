@@ -11,14 +11,6 @@ sidebar_position: 2
 
 ### 交付速率
 
-{% content-ref url="requirement-cycle.md" %}
-[requirement-cycle.md](requirement-cycle.md)
-{% endcontent-ref %}
-
-{% content-ref url="requirement-throughput.md" %}
-[requirement-throughput.md](requirement-throughput.md)
-{% endcontent-ref %}
-
 ### 交付质量
 
 ### 交付能力
