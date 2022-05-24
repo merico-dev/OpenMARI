@@ -1,7 +1,8 @@
 {
-  "label": "Metrics Dictionary",
+  "label": "指标字典",
   "position": 4,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "slug": "/docs/metrics-dict"
   }
 }

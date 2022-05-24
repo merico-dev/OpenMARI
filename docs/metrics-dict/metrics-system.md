@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Metrics System'
+sidebar_label: '指标体系'
 sidebar_position: 2
 ---
 

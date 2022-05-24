@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Best Practices'
+sidebar_label: '最佳实践'
 sidebar_position: 2
 ---
 
