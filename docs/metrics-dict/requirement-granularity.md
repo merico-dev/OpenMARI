@@ -34,7 +34,7 @@ sidebar_label: '需求颗粒度'
 
 | 目标 | 问题 |
 | --- | --- |
-| [改进项目计划的准确性](/docs/metrics-sys/gqm.md#G-improve-planning-accuracy) | [有多少需求应该进一步拆解？](/docs/metrics-sys/gqm.md#Q-how-many-requirements-need-dividing) |
+| [改进项目计划的准确性](/docs/metrics-sys-index/gqm.md#G-improve-planning-accuracy) | [有多少需求应该进一步拆解？](/docs/metrics-sys-index/gqm.md#Q-how-many-requirements-need-dividing) |
 
 ## MARI 方法
 
