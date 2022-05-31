@@ -16,15 +16,15 @@ GQM 解决收集哪些有效数据的问题，但数据的使用和行动等需�
 
 下面列出常见的目标及其问题和指标。
 
-## 改进项目计划的准确性
+## 改进项目计划的准确性 {#G-improve-planning-accuracy}
 
-### 有多少需求能够按计划时间交付？
+### 有多少需求能够按计划时间交付？{#Q-how-many-requirements-on-time}
 
 - 需求按时交付率
 
-### 有多少需求应该进一步拆解？
+### 有多少需求应该进一步拆解？{#Q-how-many-requirements-need-dividing}
 
-- 需求颗粒度
+- [需求颗粒度](/docs/metrics-dict/requirement-granularity.md)
 
 ## 参考信息
 
