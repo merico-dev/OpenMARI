@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: '规范化指标定义',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/1.svg').default,
     description: (
       <>
         遵循《软件研发效能度量规范》标准，<br/>避免概念歧义，统一数据治理。
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: '目标明确的系统化度量',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/2.svg').default,
     description: (
       <>
         从效能改进的目标出发，<br/>选取视图和指标，进行系统化度量。
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: '合理有效的改进措施',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/3.svg').default,
     description: (
       <>
         向团队询问正确的问题，定位关联指标，<br/>辅助根因分析，快速迭代改进。
