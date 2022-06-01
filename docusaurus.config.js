@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -70,7 +70,7 @@ const config = {
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
+            position: 'right',
             label: '文档',
           },
           {
@@ -123,7 +123,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Merico, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Merico, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
