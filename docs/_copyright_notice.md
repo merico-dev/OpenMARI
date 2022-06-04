@@ -1,0 +1,3 @@
+<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+
+本内容由思码逸公司（[https://merico.cn](https://merico.cn)）和 OpenMARI 贡献者（[https://openmari.dev](https://openmari.dev)）以<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">《署名-相同方式共享 4.0 国际（CC BY-SA 4.0）》</a>协议授权。
