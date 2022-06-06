@@ -1,5 +1,5 @@
 ---
-sidebar_label: '代码评审轮数'
+sidebar_label: '构建次数'
 ---
 
 # 构建次数
