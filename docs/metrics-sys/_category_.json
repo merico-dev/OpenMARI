@@ -1,8 +1,8 @@
 {
-  "label": "指标体系索引",
+  "label": "指标体系",
   "position": 5,
   "link": {
     "type": "generated-index",
-    "slug": "metrics-sys-index"
+    "slug": "metrics-sys"
   }
 }
