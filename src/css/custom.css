@@ -41,7 +41,7 @@
   background-size: cover;
 }
 
-html[data-theme='light'] footer {
+html[data-theme='light'] .footer--dark {
   background-color: #3D3E45;
 }
 
@@ -52,3 +52,4 @@ html[data-theme='light'] .theme-doc-footer-edit-meta-row {
 html[data-theme='light'] .pagination-nav {
   background-color: white;
 }
+
