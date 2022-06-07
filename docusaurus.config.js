@@ -50,6 +50,9 @@ const config = {
             'https://github.com/merico-dev/OpenMARI/tree/main/',
           editLocalizedFiles: true,
           blogTitle: '研发效能评论',
+          postsPerPage: 'ALL',
+          blogSidebarTitle: '文章列表',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -71,8 +74,14 @@ const config = {
           {
             type: 'doc',
             docId: 'intro',
-            position: 'right',
-            label: '文档',
+            label: '指南',
+            position: 'left',
+          },
+          {to: 'review', label: '研发效能评论', position: 'left',
+            items: [
+              {to: 'review/tags', label: '标签'},
+              {to: 'review/archive', label: '归档'}
+            ],
           },
           {
             href: 'https://github.com/merico-dev/OpenMARI',
