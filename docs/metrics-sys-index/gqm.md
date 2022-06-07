@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # GQM 模型
 
-GQM 即 Goal/Question/Metric（目标/问题/指标）模型，是进行软件工程数据收集和度量的一个方法框架 [[Basili84](#Basili84), [Basili92](#Basili92)]。
+GQM 即 Goal/Question/Metric（目标/问题/指标）模型，是进行软件工程数据收集和度量的一个方法框架 [^Basili(1984)] [^Basili(1992)]。
 - 在概念层，**目标**定义度量的目的（如“减少”）、度量的对象（如“需求交付”）和度量的关注点（如“延迟”）。
 - 在操作层，以**问题**的形式拆解目标，刻画度量的模型及其组成，例如：“需求交付的瓶颈在哪里？”
 - 在量化层，每个问题对应回答问题所需的**指标**。
@@ -26,7 +26,7 @@ GQM 解决收集哪些有效数据的问题，而数据的使用和后续行动�
 
 - [需求颗粒度](/docs/metrics-dict/requirement-granularity.md)
 
-## 参考信息
+## 参考阅读
 
-- [Basili84]<a id="Basili84"></a> V. R. Basili and D. M. Weiss, "[A Methodology for Collecting Valid Software Engineering Data](https://doi.org/10.1109/TSE.1984.5010301)," in _IEEE Transactions on Software Engineering_, vol. SE-10, no. 6, pp. 728-738, Nov. 1984.
-- [Basili92]<a id="Basili92"></a> V. Basili, "[Software Modeling and Measurement: The Goal/Question/Metric Paradigm](https://hdl.handle.net/1903/7538)," University of Maryland, CS-TR-2956, UMIACS-TR-92-96, September 1992.
+[^Basili(1984)]: V. R. Basili and D. M. Weiss, "[A Methodology for Collecting Valid Software Engineering Data](https://doi.org/10.1109/TSE.1984.5010301)," in _IEEE Transactions on Software Engineering_, vol. SE-10, no. 6, pp. 728-738, Nov. 1984.
+[^Basili(1992)]: V. Basili, "[Software Modeling and Measurement: The Goal/Question/Metric Paradigm](https://hdl.handle.net/1903/7538)," University of Maryland, CS-TR-2956, UMIACS-TR-92-96, September 1992.
