@@ -26,6 +26,14 @@ GQM 解决收集哪些有效数据的问题，而数据的使用和后续行动�
 
 - [需求颗粒度](/docs/metrics-dict/requirement-granularity.md)
 
+## 未归类的典型问题
+
+### 目标产品版本开发的成本是多少？
+
+### 特定类型的缺陷以什么频率发生？
+
+### 系统部署后的可用性如何？
+
 ## 参考阅读
 
 [^Basili(1984)]: V. R. Basili and D. M. Weiss, "[A Methodology for Collecting Valid Software Engineering Data](https://doi.org/10.1109/TSE.1984.5010301)," in _IEEE Transactions on Software Engineering_, vol. SE-10, no. 6, pp. 728-738, Nov. 1984.
