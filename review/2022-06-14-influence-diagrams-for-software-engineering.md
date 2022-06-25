@@ -1,6 +1,6 @@
 ---
-slug: essentials-of-influence-diagrams-for-software-engineering
-title: 研发效能中的影响图：从入门到精通
+slug: influence-diagrams-for-software-engineering
+title: 研发效能中的影响图
 date: 2022-06-14
 authors: jinglei
 tags: [OpenMARI]
