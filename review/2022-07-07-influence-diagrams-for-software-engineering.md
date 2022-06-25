@@ -1,7 +1,7 @@
 ---
 slug: influence-diagrams-for-software-engineering
 title: 研发效能中的影响图
-date: 2022-06-14
+date: 2022-07-07
 authors: jinglei
 tags: [OpenMARI]
 ---
