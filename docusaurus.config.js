@@ -96,7 +96,7 @@ const config = {
           {to: 'review', label: '研发效能评论', position: 'left',
             items: [
               {to: 'review/tags', label: '标签'},
-              {to: 'review/archive', label: '归档'}
+              {to: 'review/archive', label: '往期'}
             ],
           },
           {
