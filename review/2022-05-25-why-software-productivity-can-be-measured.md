@@ -13,3 +13,5 @@ tags: [OpenMARI]
 > ——比尔·盖茨
 
 <!--truncate-->
+
+<iframe src="https://cdn.forms-content.sg-form.com/c8a6a5ca-f94d-11ec-93fc-2e65924341d6" width="100%" height="650" />
