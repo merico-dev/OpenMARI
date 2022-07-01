@@ -1,9 +1,11 @@
 ---
-sidebar_label: 'GQM模型'
+sidebar_label: 'GQM 框架'
 sidebar_position: 2
 ---
 
-## GQM 模型
+# 基于 GQM 的指标索引
+
+## GQM 框架
 
 GQM 即 Goal/Question/Metric（目标/问题/指标），是软件工程领域进行系统化度量和分析的一个框架[^Basili(1984)] [^vanSolingen(2002)] [^Ren(2022)]，被称为研发效能度量方法的“事实标准”。
 - 在概念层，**目标**定义度量的目的（如“改进”）、对象（如“需求交付”）、维度（如“速度”）以及关注的角色（如“项目经理”）。
