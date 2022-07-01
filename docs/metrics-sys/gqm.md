@@ -19,6 +19,12 @@ GQM 即 Goal/Question/Metric（目标/问题/指标），是软件工程领域�
 
 下面列出常见的目标及其问题和指标。
 
+---
+
+**<font size="4">_内容正在建设中，目标和问题的粒度会更细，涵盖范围会更深广。_</font>**
+
+**<font size="4">_特别欢迎您到访[论坛](https://github.com/merico-dev/OpenMARI/discussions)留下宝贵的意见和建议！_</font>**
+
 ## 目标体系
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrbADs7QBJGaZmYH?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
@@ -26,6 +32,10 @@ GQM 即 Goal/Question/Metric（目标/问题/指标），是软件工程领域�
 ## 问题体系
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shroL9CQ7l7Ma4tOr?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
+
+---
+
+<iframe src="https://cdn.forms-content.sg-form.com/f8e94db1-f953-11ec-a969-eeeb3ac63a65" width="100%" height="650" />
 
 ## 参考阅读
 
