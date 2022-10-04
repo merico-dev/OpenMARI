@@ -8,7 +8,7 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'OpenMARI 开源指标体系和效能提升指南',
+  title: 'OpenMARI 开源指标体系和效能改进指南',
   tagline: '实践数据驱动研发效能的先进方法论',
   url: 'https://www.openmari.dev',
   baseUrl: '/',
