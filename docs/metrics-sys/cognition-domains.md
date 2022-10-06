@@ -1,6 +1,6 @@
 ---
 sidebar_label: '认知域'
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # 认知域
