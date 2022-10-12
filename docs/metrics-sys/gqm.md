@@ -73,22 +73,39 @@ GQM 即 Goal/Question/Metric（目标/问题/指标），是软件工程领域�
 
 为了便于开发团队理解，统计值代表的意义可以放入问题表述，例如“项目各迭代开发当量的离散系数是多少”可以转换为“项目各迭代开发当量是否稳定”。
 
-另外，这个统计值本身也是一种指标，即<对象>**<指标>的<统计值>**$$\Rightarrow$$<对象>**<指标>**。如果它值得进一步度量和观察，可以嵌套应用单指标的各类问题（`QT-ST` 和 `QT-SB`等）。
+另外，这个统计值本身也是一种指标，即<对象>**<指标>的<统计值>**$$\Rightarrow$$<对象>**<指标>**。如果它值得进一步度量和观察，可以嵌套应用单指标的`QT-ST` 和 `QT-SB`等问题。
 
+### 单指标下探类问题
 
-## 目标与问题列表
+#### `QT-SS`：<u>{子对象}</u>的<指标>如何？
+
+#### `QT-SP`：<对象><u>各部分</u>的<指标>如何？
+
+#### `QT-SST`：<u>{子对象}</u>的<指标><u>近期变化</u>如何？
+
+#### `QT-SPT`：<对象><u>各部分</u>的<指标><u>近期变化</u>如何？
+
+### 多指标关联问题
+
+#### `QT-M`：<对象>的<u>{指标}间关系</u>如何？
+
+### 复合指标下探问题
+
+#### `QT-CP`：<对象>的<u>{指标}</u>是多少？
 
 ---
 
-**<font size="4">_内容正在建设中。_</font>**
+## <font color="gray">目标与问题列表</font>
 
-**<font size="4">_特别欢迎您到访[论坛](https://github.com/merico-dev/OpenMARI/discussions)留下宝贵的意见和建议！_</font>**
+**<font size="4">_内容正在建设中，以下表格尚未按照上述规范……_</font>**
 
-## 目标体系
+**<font size="4">_欢迎您到访[论坛](https://github.com/merico-dev/OpenMARI/discussions)留下宝贵的意见和建议！_</font>**
+
+### <font color="gray">目标体系</font>
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrbADs7QBJGaZmYH?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
 
-## 问题体系
+### <font color="gray">问题体系</font>
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shroL9CQ7l7Ma4tOr?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
 
