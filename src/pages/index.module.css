@@ -16,6 +16,34 @@
   }
 }
 
+
+@media screen and (max-width: 550px) {
+  .mobileSubTitle {
+    font-size: 1.2rem;
+  }
+  .mobileTitle {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .mobileSubTitle {
+    font-size: 1.05rem;
+  }
+  .mobileTitle {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .mobileSubTitle {
+    font-size: 0.9rem;
+  }
+  .mobileTitle {
+    font-size: 1.6rem;
+  }
+}
+
 .buttons {
   display: flex;
   align-items: center;
