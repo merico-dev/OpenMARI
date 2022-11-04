@@ -71,9 +71,9 @@ MARI 的**规范化 GQM **是在 GQM 框架基础上的进一步发展。定义�
 
 | | 单一维度 | 组合维度 | 关联维度 |
 | --- | --- | --- | --- |
-| 对象整体 | [`QT-OSF`](#QT-OSF) `QT-OSP` | `QT-OCF` `QT-OCP` | `QT-ORF` `QT-ORP` |
-| 同类对象 | `QT-GSF` `QT-GSP` | `QT-GCF` | `QT-GRF` |
-| 对象组成 | `QT-ESF` `QT-ESP` | `QT-ECF` | `QT-ERF` |
+| 对象整体 | [`QT-OSF`](#QT-OSF) [`QT-OSP`](#QT-OSP) | [`QT-OCF`](#QT-OCF) [`QT-OCP`](#QT-OCP) | [`QT-ORF`](#QT-ORF) [`QT-ORP`](#QT-ORP) |
+| 同类对象 | [`QT-GSF`](#QT-GSF) [`QT-GSP`](#QT-GSP) | [`QT-GCF`](#QT-GCF) | [`QT-GRF`](#QT-GRF) |
+| 对象组成 | [`QT-ESF`](#QT-ESF) [`QT-ESP`](#QT-ESP) | [`QT-ECF`](#QT-ECF) | [`QT-ERF`](#QT-ERF) |
 
 ### 问题列表及视图
 
@@ -127,7 +127,7 @@ MARI 的**规范化 GQM **是在 GQM 框架基础上的进一步发展。定义�
 
 #### `QT-OCP`：<对象>的{指标}近期怎么样？ {#QT-OCP}
 
-与从 [`QT-OSF`](#QT-OSF) 到 `QT-OSP` 的扩展类似，该问题模板为 `QT-OCF` 加入了时间轴。为了视图可读性，加入时间轴后，通常只选取少数指标呈现，它们的单位需要统一到至多两类上。例如，“该开发者的代码产出和缺陷数量近期怎么样？”
+与从 [`QT-OSF`](#QT-OSF) 到 [`QT-OSP`](#QT-OSP) 的扩展类似，该问题模板为 [`QT-OCF`](#QT-OCF) 加入了时间轴。为了视图可读性，加入时间轴后，通常只选取少数指标呈现，它们的单位需要统一到至多两类上。例如，“该开发者的代码产出和缺陷数量近期怎么样？”
 
 📈 典型视图：
 - 折线图或堆叠柱状图，至多两条纵轴对应两类指标值，横轴为时间（按特定步长）；
@@ -187,12 +187,12 @@ MARI 的**规范化 GQM **是在 GQM 框架基础上的进一步发展。定义�
 
 对一个问题得到的数据视图整体进行进一步提问，我们称之为综合。例如，当数据视图中呈现多个数据点时，辅以数据点的一些统计值，如均值、离散系数等，可以帮助我们认知数据。下面列出一些典型问题上可进一步提出的综合类问题。
 
-- `QT-OSP`$\Rightarrow$[`QT-OSF`](#QT-OSF)/`QT-OCF`：在时间维度上综合提问。例如，在回答问题“该项目近期新增代码当量有多少”（[`QT-OSP`](#QT-OSP)）的视图上，我们可以进一步提问“该项目每周新增代码当量的离散系数是多少”（[`QT-OSF`](#QT-OSF)）来评估开发产出稳定性，呈现为视图上标记的一个数值。
-- `QT-GSF`/`QT-ESF`$\Rightarrow$[`QT-OSF`](#QT-OSF)/`QT-OCF`：将多个对象在单一维度上综合提问。例如，在回答“该项目各迭代的需求交付周期是多少”（[`QT-ESF`](#QT-ESF)）的视图上，我们可以进一步提问“该项目各迭代需求交付周期的上限和下限是多少”（[`QT-OCF`](#QT-OCF)）作为各个迭代数值的参考，呈现为视图上的一个辅助线。
-- `QT-GCF`/`QT-ECF`$\Rightarrow$`QT-OCF`：将多个对象分别在组合的各个维度上综合。例如，问题“各位开发者的代码在几个关键质量指标上表现如何”（`QT-ECF`）的数据视图可以呈现为雷达图，其上可以标记出回答“他们的代码在各个关键质量指标上的均值是多少”（`QT-OCF`）的折线作为参照。
-- 另有一类分析不改变问题形式但从每个数据点上计算出新的值，我们也归入综合类。例如数据点之间的比值或者各自占总数的比例：问题“各团队开发者人数是多少”（`QT-ESF`）的视图上可以标记出“各团队开发人数占多大比例”（`QT-ESF`）。
+- [`QT-OSP`](#QT-OSP)$\Rightarrow$[`QT-OSF`](#QT-OSF)/[`QT-OCF`](#QT-OCF)：在时间维度上综合提问。例如，在回答问题“该项目近期新增代码当量有多少”（[`QT-OSP`](#QT-OSP)）的视图上，我们可以进一步提问“该项目每周新增代码当量的离散系数是多少”（[`QT-OSF`](#QT-OSF)）来评估开发产出稳定性，呈现为视图上标记的一个数值。
+- [`QT-GSF`](#QT-GSF)/[`QT-ESF`](#QT-ESF)$\Rightarrow$[`QT-OSF`](#QT-OSF)/[`QT-OCF`](#QT-OCF)：将多个对象在单一维度上综合提问。例如，在回答“该项目各迭代的需求交付周期是多少”（[`QT-ESF`](#QT-ESF)）的视图上，我们可以进一步提问“该项目各迭代需求交付周期的上限和下限是多少”（[`QT-OCF`](#QT-OCF)）作为各个迭代数值的参考，呈现为视图上的一个辅助线。
+- [`QT-GCF`](#QT-GCF)/[`QT-ECF`](#QT-ECF)$\Rightarrow$[`QT-OCF`](#QT-OCF)：将多个对象分别在组合的各个维度上综合。例如，问题“各位开发者的代码在几个关键质量指标上表现如何”（[`QT-ECF`](#QT-ECF)）的数据视图可以呈现为雷达图，其上可以标记出回答“他们的代码在各个关键质量指标上的均值是多少”（[`QT-OCF`](#QT-OCF)）的折线作为参照。
+- 另有一类分析不改变问题形式但从每个数据点上计算出新的值，我们也归入综合类。例如数据点之间的比值或者各自占总数的比例：问题“各团队开发者人数是多少”（[`QT-ESF`](#QT-ESF)）的视图上可以标记出“各团队开发人数占多大比例”（同为 [`QT-ESF`](#QT-ESF)）。
 
-我们不推荐在较复杂的视图上再综合其他问题，会导致视图信息过载，不便于用户理解。例如，`QT-GSP` 和 `QT-ESP` 同时包含了多个对象和时间变化，再添加辅助线会降低图表可读性。同理，关联维度类问题如果综合多个对象，在视图上不易区分综合结果对应哪个维度。
+我们不推荐在较复杂的视图上再综合其他问题，会导致视图信息过载，不便于用户理解。例如，[`QT-GSP`](#QT-GSP) 和 [`QT-ESP`](#QT-ESP) 同时包含了多个对象和时间变化，再添加辅助线会降低图表可读性。同理，关联维度类问题如果综合多个对象，在视图上不易区分综合结果对应哪个维度。
 
 #### 聚焦
 
@@ -206,28 +206,28 @@ MARI 的**规范化 GQM **是在 GQM 框架基础上的进一步发展。定义�
 
 结合实际场景，聚焦后的问题应属于如下模板之一：
 - [`QT-OSF`](#QT-OSF)：聚焦一个对象特定时段的某个维度；
-- `QT-OSP`：聚焦一个对象各个时段的某个维度
-- `QT-GSF`/`QT-ESF`：聚焦多个对象特定时段的某个维度；
-- `QT-OCF`：聚焦一个对象特定时段的多个维度。
+- [`QT-OSP`](#QT-OSP)：聚焦一个对象各个时段的某个维度
+- [`QT-GSF`](#QT-GSF)/[`QT-ESF`](#QT-ESF)：聚焦多个对象特定时段的某个维度；
+- [`QT-OCF`](#QT-OCF)：聚焦一个对象特定时段的多个维度。
 
 #### 下探
 
 管理行动（控制或改进）需要定位指标高低背后的原因或瓶颈，伴随多种数据下探分析，也是聚焦之后再进一步的提问。从实现角度看，“下探”通常是从一个视图的关注点，跳转到更深度反映其信息的另一个视图。基于聚焦后的问题，我们总结了下探的典型方式（聚焦问题$\rightarrow$下探问题）。
 
 - 基于时间下探：
-  - [`QT-OSF`](#QT-OSF)$\rightarrow$`QT-OSP`
-  - `QT-GSF`$\rightarrow$`QT-GSP`
-  - `QT-ESF`$\rightarrow$`QT-ESP`
-  - `QT-OCF`$\rightarrow$`QT-OCP`
+  - [`QT-OSF`](#QT-OSF)$\rightarrow$[`QT-OSP`](#QT-OSP)
+  - [`QT-GSF`](#QT-GSF)$\rightarrow$[`QT-GSP`](#QT-GSP)
+  - [`QT-ESF`](#QT-ESF)$\rightarrow$[`QT-ESP`](#QT-ESP)
+  - [`QT-OCF`](#QT-OCF)$\rightarrow$[`QT-OCP`](#QT-OCP)
 - 基于对象下探：
-  - [`QT-OSF`](#QT-OSF)$\rightarrow$`QT-ESF`
-  - `QT-OSP`$\rightarrow$`QT-ESP`
-  - `QT-OCF`$\rightarrow$`QT-ECF`
+  - [`QT-OSF`](#QT-OSF)$\rightarrow$[`QT-ESF`](#QT-ESF)
+  - [`QT-OSP`](#QT-OSP)$\rightarrow$[`QT-ESP`](#QT-ESP)
+  - [`QT-OCF`](#QT-OCF)$\rightarrow$[`QT-ECF`](#QT-ECF)
 - 基于维度下探：
-  - [`QT-OSF`](#QT-OSF)$\rightarrow$`QT-OCF`
-  - `QT-OSP`$\rightarrow$`QT-OCP`
-  - `QT-GSF`$\rightarrow$`QT-GCF`
-  - `QT-ESF`$\rightarrow$`QT-ECF`
+  - [`QT-OSF`](#QT-OSF)$\rightarrow$[`QT-OCF`](#QT-OCF)
+  - [`QT-OSP`](#QT-OSP)$\rightarrow$[`QT-OCP`](#QT-OCP)
+  - [`QT-GSF`](#QT-GSF)$\rightarrow$[`QT-GCF`](#QT-GCF)
+  - [`QT-ESF`](#QT-ESF)$\rightarrow$[`QT-ECF`](#QT-ECF)
 
 
 ---
