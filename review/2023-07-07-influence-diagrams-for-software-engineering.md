@@ -1,7 +1,7 @@
 ---
 slug: influence-diagrams-for-software-engineering
 title: 研发效能中的影响图
-date: 2022-07-07
+date: 2023-07-07
 authors: jinglei
 tags: [OpenMARI]
 ---
@@ -10,7 +10,7 @@ tags: [OpenMARI]
 
 [^Shachter(1986)] [^Shachter(1988)]
 
-<iframe src="https://cdn.forms-content.sg-form.com/c8a6a5ca-f94d-11ec-93fc-2e65924341d6" width="100%" height="650" />
+<iframe src="https://www.fxiaoke.com/ec/h5-landing/release/form.html?marketingEventId=63abdca625b40900019e4239&spreadChannel=website&formId=d59cc81dc7574c1e931a78be5e1abc0c" width="400" height="650"></iframe>
 
 
 ## 参考阅读
