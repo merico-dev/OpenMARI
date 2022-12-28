@@ -65,6 +65,16 @@ sidebar_position: 1
 
 联系[思码逸](https://www.merico.cn)企业服务，获得完整信息。
 
+## 中英文词汇对照表 {#glossary}
+
+| 中文 | 英文 | 缩写 |
+| --- | --- | --- |
+| 缺陷关闭时间 | bug close time | BCT |
+| 事务前置时间 | issue lead time | ILT |
+| 需求交付时长 | requirement delivery time | RDT |
+| 需求交付速率 | requirement delivery velocity | RDV |
+| 需求吞吐量 | requirement throughput | RT |
+
 ## 参考阅读
 
 汇集和精选跟该指标相关的网络资源或文献。
